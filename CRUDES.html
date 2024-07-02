@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>CRUDS</title>
+        <meta name="description" content=""/>
+        <style></style>
+        <script></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="crud">
+            <div class="head">
+                <h2>crud</h2>
+                <p>PRODUCT MANGEMENT SYSTEM</p>
+            </div>
+            <div class="inputs">
+                <input placeholder="title" type="text" id="title">
+                <div class="price">
+                    <input type="number" id="price" placeholder="price">
+                    <input type="number" id="taxes" placeholder="taxes">
+                    <input type="number" id="ads" placeholder="ads">
+                    <input type="number" id="discount" placeholder="discount">
+                    <small id="total">2222</small>
+                </div>
+                <input placeholder="count" type="number" id="count">
+                <input placeholder="category" type="text" id="category">
+                <button id="submit" >Create</button>
+            </div>
+            <div class="outputs">
+                <div class="searchBlook">
+                    <input type="text" id="search" placeholder="search">
+                    <div class="btnsearch">
+                        <button id="searchtitle">Search by title</button>
+                        <button id="searchcategory">Search by category</button>
+
+                    </div>
+
+                </div>
+            </div>
+        <table>
+            <tr>
+                <th>id</th>
+                <th>title</th>
+                <th>price</th>
+                <th>taxes</th>
+                <th>ads</th>
+                <th>discount</th>
+                <th>total</th>
+
+                <th>category</th>
+                <th>update</th>
+                <th>delete</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td><button id="update">update</button></td>
+                    <td><button id="delete">delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>   
+    </body>
+
+
+</html>
